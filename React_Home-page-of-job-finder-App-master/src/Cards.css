@@ -1,0 +1,63 @@
+.column {
+    float: left;
+    width: auto;
+    padding: 0 10px;
+  }
+  
+  .row {
+      margin-top: 60px;
+    }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  .card {
+    margin-bottom: 45px;
+    margin-right: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  
+  .button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+    padding: 8px 10px;
+  }
+  
+  .button2:hover {
+    background-color: #008CBA;
+    color: white;
+  }
+  .applied_button{
+      background-color: #008CBA; 
+      color: white; 
+      padding: 8px 8px;
+  }
+
+  select {
+    width: 150px;
+    height: 30px;
+    margin: 10px;
+}
+select:focus {
+    min-width: 150px;
+    width: auto;
+}
+.page_buttons{
+  position: absolute;
+  top: 1500px;
+  left: 45%;
+}
+.main_div{
+  position: relative;
+  height: 1600px;
+}
+    
